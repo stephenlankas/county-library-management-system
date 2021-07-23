@@ -1,0 +1,17 @@
+void execute_action (int action){
+	
+	switch (action){
+		case 1:
+			printf("adding a user\n");
+			break;
+     	case 2:
+			printf("adding a book\n");
+			break;
+		case 3:
+			close();
+			break;
+		default:
+			printf("unknown action.\n");
+			
+}
+}

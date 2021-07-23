@@ -1,0 +1,7 @@
+void close () {
+	printf ("thank you for using the system\n");
+	printf ("bye\n");
+	Sleep (5000);
+	system ("cls");
+	exit (0);
+}
